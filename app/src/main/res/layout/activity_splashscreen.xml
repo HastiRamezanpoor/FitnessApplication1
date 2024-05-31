@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/backmob"
+    tools:context=".Splashscreen">
+
+    <ImageView
+        android:id="@+id/appsplash"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="160dp"
+        android:background="@drawable/fiticon"
+        android:contentDescription="TODO"/>
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="93dp"
+
+        android:layout_marginBottom="531dp"
+        android:text="FITNESS APP"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
